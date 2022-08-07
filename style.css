@@ -1,3 +1,39 @@
-.navbar-brand {
-    font-weight:bold;
-} 
+
+.nav-item {
+    border-bottom: 2px solid transparent;
+}
+.nav-item:hover:after {
+border-bottom: 2px solid black ;
+content: "";
+display:block;
+width:20px;
+margin-left: 10px;
+}
+
+.carousel-inner{
+    background-color: bisque;
+    text-align: center;
+    height:300px;  
+}
+.carousel .carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+    background-color: black !important;
+}
+ 
+
+.button-get-in-touch {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:auto;
+    border-radius:15px;
+    height: 48px;
+  }
