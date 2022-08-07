@@ -70,10 +70,13 @@ background-color: black !important;
 .grey-picture {
     width:560px;
     height:560px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .creative{
-    font-size: 29px;  
+    font-size: 29px;
+    margin-top: 50px;  
 }
 
 .kitchen{
@@ -89,4 +92,21 @@ background-color: black !important;
 .text1{
     font-size: 21px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(170, 170, 170);
+    margin-bottom: 50px;
+}
+.learn-more{
+background-color: transparent;
+color: black;
+text-align: center;
+border-color: rgb(206, 204, 204);
+border-radius: 50px;
+padding-block: 10px;
+}
+
+.grey-picture2{
+    width:364px;
+    height:364px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
