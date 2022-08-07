@@ -1,6 +1,6 @@
 
 .nav-item {
-    border-bottom: 2px solid transparent;
+border-bottom: 2px solid transparent;
 }
 .nav-item:hover:after {
 border-bottom: 2px solid black ;
@@ -11,16 +11,35 @@ margin-left: 10px;
 }
 
 .carousel-inner{
-    background-color: bisque;
-    text-align: center;
-    height:300px;  
+background-color: bisque;
+text-align: center;
+height:300px; 
+padding-top: 40px; 
+padding-bottom: 40px;
 }
-.carousel .carousel-indicators button {
-    height: 10px !important;
-    width: 10px !important;
-    margin: 0 10px !important;
-    border-radius: 100%;
-    background-color: black !important;
+.we-are-clemo{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.hr{
+    width:5%;
+    border:5px;
+    background-color: black;
+    border: none;
+    text-align:center;
+    margin-left:620px;
+    }
+
+.h6{
+   margin-top: auto !important;
+}
+
+.carousel-indicators button {
+height: 10px !important;
+width: 10px !important;
+margin: 0 10px !important;
+border-radius: 100%;
+background-color: black !important;
 }
  
 
@@ -32,8 +51,42 @@ margin-left: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin:auto;
     border-radius:15px;
     height: 48px;
   }
+
+  /* what we do? */
+
+.what-we-do {
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:100;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.grey-picture {
+    width:560px;
+    height:560px;
+}
+
+.creative{
+    font-size: 29px;  
+}
+
+.kitchen{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.creative-kitchen{
+   width:7%;   
+   font-weight:bold;
+}
+
+.text1{
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
