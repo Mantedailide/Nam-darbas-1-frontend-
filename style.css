@@ -29,17 +29,12 @@ font-weight: bold;
 margin-bottom: 25px;
 }
 
-.hr {
-width:5%;
-border:5px;
+.hr-width {
+height: 2px;
+width:4%;
 background-color: black;
-border: none;
-text-align:center;
-margin-left:620px;
-}
-
-.h6 {
-margin-top: auto !important;
+margin: auto;
+margin-bottom: 25px;
 }
 
 .carousel-indicators button {
@@ -108,9 +103,9 @@ font-weight: bold;
 font-size: 32px;
 }
 
-.creative-kitchen {
-width: 10%;
-border: 2px solid black;
+.one {
+width: 8%;
+height: 2px;
 background-color: black;
 margin-top: 30px;
 margin-bottom: 30px;
